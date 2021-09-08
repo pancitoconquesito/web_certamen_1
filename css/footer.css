@@ -1,0 +1,38 @@
+footer{
+    background-color: var(--grisFooter);
+    height: 270px;
+    color:  var(--colorBlanco);
+}
+#infoFooter{
+    margin-bottom: 10px;
+    float: right;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#contactUS{
+    margin-right: 100px;
+}
+#contactUS ul{
+    clear:both;
+    text-align: left;
+    padding: 0;
+}
+#contactUS ul li{
+    margin-bottom: 10px;
+}
+#contactUS ul li span{
+    margin-right: 20px;
+}
+
+#infoFooter ul{
+    list-style: none;
+}
+#contactInformation ul li{
+    margin-bottom: 15px;
+}
+footer p{
+    clear:both;
+    text-align: center;
+}

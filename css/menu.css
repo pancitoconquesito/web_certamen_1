@@ -1,37 +1,171 @@
-:root{
-    --naranjo:rgb(244, 72, 58);
-}
+
 #top{
     background-color: black;
-    color: white;
+    color:  var(--colorBlanco);
+    height:45px;
     display: flex;
     justify-content: space-between;
+    align-items	:center;
+    
 }
+#top div{
+    display: flex;
+}
+#top div .phone{
+    padding-top: 10px;
+    margin-left: 15px;
+}
+#top div p{
+    margin-left: 40px;
+}
+#top a{
+    text-decoration: none;
+    color: var(--colorBlanco);
+}
+#top .carrito{
+    margin-right: 30px;
+    font-size: 2.2em;
+    vertical-align: middle;
+    transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -ms-transition: color 0.2s;
+    -o-transition: color 0.2s;
+}
+#top .carrito:hover{
+    color:var(--amarilloActive);
+}
+
 #logo{
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
-}
-#logo p:nth-child(1){
-    color:var(--naranjo);
-}
-#logo p:nth-child(2){
+    font-size: 2em;
+    line-height: 0.1;
     
 }
-#menu{
+#logo p:nth-child(1){
+    /*color:var(--naranjo);*/
+    margin:25px 0 15px 0px;
+    animation-duration:3s;
+    animation-name: colorP1;
+    animation-iteration-count: infinite;
+}
+#logo p:nth-child(2){
+    margin:25px 0 15px 0px;
+    font-size: 0.8em;
+    animation-duration: 3s;
+    animation-name: colorP2;
+    animation-iteration-count: infinite;
+}
+/*animacion logo*/
+@keyframes colorP1 {
+    from {
+        color:transparent;
+        margin-left: 0px;
+    }
+    20% {
+        color:var(--naranjo);
+        margin-left: 10px;
+    }
+    80%{
+        margin-left: 10px;
+    }
+    90%{
+        color:var(--naranjo);
+        margin-left: 20px;
+    }
+    to {
+        color:transparent;
+        margin-left: 10px;
+    }
+}
+@keyframes colorP2 {
+    from {
+        color:transparent;
+        margin-left: 0px;
+    }
+    20%{
+        color:black;
+        margin-left: 30px;
+    }
+    80%{
+
+        margin-left: 30px;
+    }
+    90%{
+        color:black;
+        margin-left: 40px;
+    }
+
+    to {
+        color:transparent;
+        margin-left: 30px;
+    }
+}
+
+/*fin animcion logo*/
+#menu nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #menu nav ul{
     display: flex;
     justify-content: flex-start;
     align-content: flex-start;
+    font-family: 'Merriweather', serif;
 }
 #menu nav ul li{
     list-style: none;
-    padding: 1px 20px;
+    padding: 0 20px;
     
+}
+#menu nav ul li a{
+    padding: 4px 20px;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+}
+/**/
+#menu nav ul li a:link{
+    color: black;
+}
+#menu nav ul li a:visited{
+    color: black;
+}
+
+/**/
+#menu nav ul li a:hover{
+    background-color: var(--naranjo);
+    color: var(--colorBlanco);
+}
+#menu nav ul li a:active{
+    color: var(--amarilloActive);
 }
 .conLinea {
     border-right: 1px solid black;
 }
+nav .identificate{
+    margin-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 10px;
+    transition: background-color 0.3s ;
+    -webkit-transition: background-color 0.3s ;
+    -moz-transition: background-color 0.3s ;
+    -ms-transition: background-color 0.3s ;
+    -o-transition: background-color 0.3s ;
+}
+nav .identificate:hover{
+    background-color: var(--naranjo);
+    color: var(--colorBlanco);
+}
+.login{
+    margin-right: 10px;
+    font-size: 2.5em;
+    vertical-align: middle;
+}
+
+

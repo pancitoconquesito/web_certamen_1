@@ -1,0 +1,48 @@
+@import url("menu.css");
+
+
+#imgGrande{
+    width: 100%;
+    height: 1800px;
+    background-image: url(../src/imagenes/imagen1.jpeg);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Merriweather', serif;
+}
+#imgGrande div{
+    width: 30%;
+    margin: 0 2% 2% 0;
+}
+#touchOfSpring{
+    text-align: center;
+    color:var(--colorBlanco);
+    font-size: 3em;
+    background-color: var(--naranjoRGBA);
+}
+#textoImgGrande{
+    
+    background-color: var(--negroAlphaMedio);
+
+}
+#textoImgGrande p{
+    font-size: 1.2em;
+    padding:5% 8%;
+    color: var(--colorBlanco);
+    text-align:justify;
+}
+#textoImgGrande a{
+    color: var(--dontMiss);
+    font-weight: bolder;
+    text-align: center;
+    float: right;
+    margin-bottom: 20px;
+}
+

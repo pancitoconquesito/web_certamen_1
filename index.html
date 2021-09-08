@@ -4,21 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>- Certamen 1 -</title>
+    <link rel="shortcut icon" href="src/iconos/camisa.ico">
 
+    <!-- Info Meta -->
+    <meta name="description" content="certamen N°1 de ingenieria Web" />
+    <meta name="keywords" content="desarrollo web, paginas web, html, css" />
+    <meta name="author" content="Gonzalo Astorga" />
+    <meta name="copyright" content="HDG software" />
+    <meta name="robots" content="index,follow" />
+
+    <!--GOOGLE ICONS-->
+      <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
     <!--google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">    
     <!--css-->
-    <link rel="stylesheet" href="css/normal">
+    <link rel="stylesheet" href="css/normalizer.css">
+    <link rel="stylesheet" href="css/basic.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/imgGrande.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/showcase.css">
+    <link rel="stylesheet" href="css/bestProductImportantPhotos.css">
+    
 </head>
 <body>
     <header>
         <div id="top">
-            <p><span class="material-icons">phone</span> 12233444343434 | 1212121333</p>
-            <p>carrito</p>
+            <div>
+                <span class="material-icons phone">phone</span>
+                <p>2233444343434 | 1212121333</p>
+            </div>
+            <a href="#"><span class="material-icons carrito">shopping_cart</span></a>
+            
         </div>
         <div id="logo">
             <p>Nice</p>
@@ -27,16 +50,195 @@
         <div id="menu">
             <nav>
                 <ul>
-                    <li class="conLinea">HOME</li>
-                    <li class="conLinea">SHOP</li>
-                    <li class="conLinea">BLOG</li>
-                    <li class="conLinea">PORTAFOLIO</li>
-                    <li class="conLinea">PAGE</li>
-                    <li>CONTACT</li>
+                    <li class="conLinea"><a href="#">HOME</a></li>
+                    <li class="conLinea"><a href="#">SHOP</a></li>
+                    <li class="conLinea"><a href="#">BLOG</a></li>
+                    <li class="conLinea"><a href="#">PORTAFOLIO</a></li>
+                    <li class="conLinea"><a href="#">PAGE</a></li>
+                    <li><a href="#">CONTACT</a></li>
                 </ul>
+
+                <a href="#" class="identificate"><span class="material-icons-outlined login">
+                    account_circle
+                    </span>IDENTIFICATE</a>
             </nav>
-            <p>identificate</p>
+            
         </div>
     </header>
+
+    <section id="imgGrande">
+        <div id="touchOfSpring">
+            <p>Touch of Spring</p>
+        </div>
+        <div id="textoImgGrande">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+            <a href="#">DONT' MISS OUT >></a>
+        </div>
+    </section>
+
+    <section id="showcase">
+        <h3>PRODUCT SHOWCASE</h3>
+        <hr>
+        <section id="galeriaIMG_showcase">
+            <div class="showcase-bastidor">
+                <div class="cuadro">
+                    <a href="#"><img src="src/imagenes/imagen3.png" alt="imagen de prueba"></a>
+                    <span class="material-icons-outlined">
+                        favorite
+                        </span>
+                </div>
+                <div class="precioAgotado">
+                    <p class="showcase-precio">$ 25</p>
+                </div>
+                <a href="#">LONG SLEEVE FORMAL SHIT</a>
+            </div>
+
+            <div class="showcase-bastidor">
+                <div class="cuadro">
+                    <a href="#"><img src="src/imagenes/imagen3.png" alt="imagen de prueba"></a>
+                    <span class="material-icons-outlined">
+                        favorite
+                        </span>
+                </div>
+                <div class="precioAgotado">
+                    <p class="showcase-precio">$ 25</p>
+                    <p>AGOTADO</p>
+                </div>
+                <a href="#">LONG SLEEVE FORMAL SHIT</a>
+            </div>
+
+            <div class="showcase-bastidor">
+                <div class="cuadro">
+                    <a href="#"><img src="src/imagenes/imagen3.png" alt="imagen de prueba"></a>
+                    <span class="material-icons-outlined">
+                        favorite
+                        </span>
+                </div>
+                <div class="precioAgotado">
+                    <p class="showcase-precio">$ 25</p>
+                </div>
+                <a href="#">LONG SLEEVE FORMAL SHIT</a>
+            </div>
+
+            <div class="showcase-bastidor">
+                <div class="cuadro">
+                    <a href="#"><img src="src/imagenes/imagen3.png" alt="imagen de prueba"></a>
+                    <span class="material-icons-outlined">
+                        favorite
+                        </span>
+                </div>
+                <div class="precioAgotado">
+                    <p class="showcase-precio">$ 25</p>
+                </div>
+                <a href="#">LONG SLEEVE FORMAL SHIT</a>
+            </div>
+        </section>
+    </section>
+
+    <section id="bestProductETC">
+        <section class="bestSellersFeature">
+            <h3>BEST SELLERS</h3>
+            <div class="bestsellersFeature-bastidor">
+                <img src="src/imagenes/imagen4.png" alt="imagen de mujer 4">
+                <div>
+                    <a href="#">SHORT SLEEVE FITTED BLOUSES</a>
+                    <p class="bestsellersFeature-precio">$ 25</p>
+                </div>
+            </div>
+            <div class="bestsellersFeature-bastidor">
+                <img src="src/imagenes/imagen4.png" alt="imagen de mujer 4">
+                <div>
+                    <a href="#">SHORT SLEEVE FITTED BLOUSES</a>
+                    <p class="bestsellersFeature-precio">$ 25</p>
+                </div>
+            </div>
+            <div class="bestsellersFeature-bastidor">
+                <img src="src/imagenes/imagen4.png" alt="imagen de mujer 4">
+                <div>
+                    <a href="#">SHORT SLEEVE FITTED BLOUSES</a>
+                    <p class="bestsellersFeature-precio">$ 25</p>
+                </div>
+            </div>
+        </section>
+        <section class="bestSellersFeature">
+            <h3>FEATURE PRODUCTS</h3>
+            <div class="bestsellersFeature-bastidor">
+                <img src="src/imagenes/imagen2.png" alt="imagen de mujer 2">
+                <div>
+                    <a href="#">SHORT SLEEVE FITTED BLOUSE</a>
+                    <p class="bestsellersFeature-precio">$ 25</p>
+                </div>
+            </div>
+            <div class="bestsellersFeature-bastidor">
+                <img src="src/imagenes/imagen2.png" alt="imagen de mujer 2">
+                <div>
+                    <a href="#">SHORT SLEEVE FITTED BLOUSE</a>
+                    <p class="bestsellersFeature-precio">$ 25</p>
+                </div>
+            </div>
+            <div class="bestsellersFeature-bastidor">
+                <img src="src/imagenes/imagen2.png" alt="imagen de mujer 2">
+                <div>
+                    <a href="#">SHORT SLEEVE FITTED BLOUSE</a>
+                    <p class="bestsellersFeature-precio">$ 25</p>
+                </div>
+            </div>
+            
+        </section>
+        <section id="importLink">
+            <h3>IMPORTANT LINKS</h3>
+            <ul>
+                <li><a href="#">Freatured products</a></li>
+                <li><a href="#">Product Categories</a></li>
+                <li><a href="#">Manufactures</a></li>
+                <li><a href="#">Suppliers</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </section>
+        <section id="photos">
+            <h3>PHOTOS</h3>
+            <div id="photos-imgs">
+                <img src="src/imagenes/imagen4.png" alt="imagen chica 4">
+                <img src="src/imagenes/imagen3.png" alt="imagen chica 3">
+                <img src="src/imagenes/imagen4.png" alt="imagen chica 4">
+                <img src="src/imagenes/imagen4.png" alt="imagen chica 4">
+                <img src="src/imagenes/imagen3.png" alt="imagen chica 3">
+                <img src="src/imagenes/imagen4.png" alt="imagen chica 4">
+                <img src="src/imagenes/imagen4.png" alt="imagen chica 4">
+                <img src="src/imagenes/imagen4.png" alt="imagen chica 4">
+                <img src="src/imagenes/imagen3.png" alt="imagen chica 3">
+                <img src="src/imagenes/imagen4.png" alt="imagen chica 4">
+                <img src="src/imagenes/imagen4.png" alt="imagen chica 4">
+                <img src="src/imagenes/imagen4.png" alt="imagen chica 4">
+                <img src="src/imagenes/imagen4.png" alt="imagen chica 4">
+                <img src="src/imagenes/imagen4.png" alt="imagen chica 4">
+                <img src="src/imagenes/imagen4.png" alt="imagen chica 4">
+            </div>
+        </section>
+    </section>
+    <footer>
+        <div id="infoFooter">
+            <section id="contactUS">
+                <h4>CONTACT US</h4>
+                <ul>
+                    <li><span class="material-icons phone">phone</span>000-12333-1222</li>
+                    <li><span class="material-icons phone">phone_android</span>000-12333-1222</li>
+                    <li><span class="material-icons-outlined">
+                        alternate_email</span>
+                    <li><span class="material-icons">
+                        place</span>Av. Brasil 2250</li>
+                </ul>
+            </section>
+            <section id="contactInformation">
+                <h4>CONTACT INFORMATION</h4>
+                <ul>
+                    <li>Valparapíso, Chile</li>
+                    <li>Werking days: Menu- Sun</li>
+                    <li>Working hours: 9:00 AM -20:00</li>
+                </ul>
+            </section>
+        </div>
+        <p>COPYRIGHT&copy; 2021</p>
+    </footer>
 </body>
 </html>

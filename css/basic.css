@@ -1,0 +1,53 @@
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing:normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+a{
+  text-decoration: none;
+}
+a:visited{
+  color:black;
+}
+/* a:visited {color: black;
+  text-decoration: none }
+  textarea:focus, 
+  input:focus{outline: none !important;}	
+    outline: none;} */
+
+    :root{
+      --naranjo:rgb(244, 72, 58);
+      --naranjoRGBA:rgba(244, 74, 58, 0.568);
+      --negroAlphaMedio:rgb(141, 141, 141, 0.5);
+      --dontMiss:rgb(216, 80, 71);
+      --grisFooter:rgb(117, 117, 117);
+      --colorBorde:rgb(230, 230, 230);
+      /* blanco o casi blanco */
+      --colorBlanco:rgb(253, 246, 244);
+      --rojoCorazonPrecio:rgb(243, 67, 53);
+      --amarilloActive:rgb(233, 255, 37);
+      --visitado:rgb(85, 26, 97);
+      --noVisitado:rgb(0, 0, 0);
+      --colorHover:rgb(0, 195, 0);
+  }
+
